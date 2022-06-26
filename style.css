@@ -1,0 +1,94 @@
+body {
+
+  background-image: url(https://th.bing.com/th/id/R.d8ab963c2ffdd46607017375e0fa9a5a?rik=ijRI%2f2fhCaoQlA&riu=http%3a%2f%2fcdn.allwallpaper.in%2fwallpapers%2f3500x2083%2f198%2fvideo-games-futuristic-artwork-halo-4-3500x2083-wallpaper.jpg&ehk=P9RgWTB%2bod46n1yMRJLC3vrubhkvJAQYQO6wEgsi734%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+    font-family: "Potta One", cursive;
+
+}
+#puzzle {
+  width: 460px;
+  height: 500px;
+  margin: 0 auto;
+  border: 2.5 px ;
+  border-radius: 10px;
+  background-color: #3F3351;
+  box-shadow: 0 0 10px #000;
+  margin-top: 123px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+#puzzle input {
+
+    font-family: "Potta One", cursive;
+  margin-top: 1%;
+  width: 50px;
+  height: 50px;
+  border: 2.5px solid #3F3351;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #864879;
+  background-color: #F0E5D8;
+  box-shadow: 0 0 10px #000;
+  box-sizing: border-box;
+  /* green sahow with green animation */
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#puzzle input:focus {
+  outline: none;
+}
+#puzzle input:hover {
+  background-color: #FEE3EC;
+}
+button {
+  margin-top: 2%;
+  outline: 0;
+  position: relative;
+  display: inline-block;
+  padding: 10px 55px;
+  font-size: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px;
+  background: #BBDFC8;
+  color: #4A746E;
+  font-weight: 600;
+  transition: box-shadow 0.1s ease-in-out, border-color 0.2s ease-in-out;
+  border-radius: 5px;
+
+    font-family: "Potta One", cursive;
+}
+button:hover {
+  background-color: #385B66;
+  color: #BBDFC8;
+  box-shadow: 0 0 5px #D2F5E3, 0 0 7px #D2F5E3,
+    0 0 11px #D2F5E3, 0 0 11px #D2F5E3;
+  border-color: #fff;
+}
+.container {
+  margin-top: 2%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  width: 400px;
+  margin: auto;
+  align-items: center;
+  gap: 10px;
+}
+.max {
+  width: 397px;
+
+  font-size: 28px;
+  background-color: #46105f;
+  color: #F3F1F5;
+}
+.solver {
+  background-color: #BBDFC8;
+  color: #4A746E;
+}
